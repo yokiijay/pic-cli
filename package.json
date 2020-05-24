@@ -1,5 +1,5 @@
 {
-  "name": "pic-cli",
+  "name": "@yokiijay/pic-cli",
   "version": "0.0.1",
   "main": "src/app.js",
   "description": "An generator for random picture",
