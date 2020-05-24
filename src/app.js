@@ -28,21 +28,11 @@ async function question(){
   }).run()
 
   let currentCount = 0
-  const spinner = ora(`加载第${currentCount+1}张`).start()
-
+  
   for(let i=0;i<count;i++){
     (async ()=>{
-      spinner.text = `加载第${currentCount+1}张`
+      const spinner = ora(`加载第${currentCount+1}张`).start()
       const { url } = await fetch('https://picsum.photos/200')
-
-
-      const logger = new Signale({
-        types: {
-          success: {
-            label: `第${currentCount+1}张图：`
-          }
-        }
-      })
 
       spinner.succeed(`第${currentCount+1}张图: ${url}`)
 
