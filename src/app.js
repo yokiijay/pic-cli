@@ -87,7 +87,7 @@ async function fetchPictures(count, width, height){
 
         pictures.shift()
         clipboardy.writeSync(JSON.stringify(pictures))
-        signale.success(`🌈 Saved to clipboard 🌈 `)
+        return signale.success(`🌈 Saved to clipboard 🌈 `)
       }
     } catch (err) { i-- }
 

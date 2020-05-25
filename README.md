@@ -1,9 +1,9 @@
 # pic-cli
  A Generator for random pictures
 
-Demo:
+DEMO:
 
-![Demo](https://i.loli.net/2020/05/25/USIjK25PGiCNXuR.gif)
+![DEMO](https://i.loli.net/2020/05/25/6TRZB8ksdJhKDOF.gif)
 
 ## Install
 `yarn global add @yokiijay/pic-cli`

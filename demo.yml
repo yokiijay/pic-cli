@@ -23,7 +23,7 @@ config:
   # Explicitly set the number of rows
   # or use `auto` to take the current
   # number of rows of your shell
-  rows: 15
+  rows: 14
   
   # Amount of times to repeat GIF
   # If value is -1, play once
@@ -33,7 +33,7 @@ config:
   
   # Quality
   # 1 - 100
-  quality: 40
+  quality: 50
   
   # Delay between frames in ms
   # If the value is `auto` use the actual recording delays
@@ -111,125 +111,195 @@ config:
   
 # Records, feel free to edit them
 records:
-  - delay: 630
+  - delay: 333
     content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                               \r \r\r\e[0m\e[27m\e[24m\e[Jyokiijay@work pic-cli % \e[K\e[?2004h"
-  - delay: 1193
+  - delay: 962
     content: p
-  - delay: 161
+  - delay: 185
     content: "\bpi"
-  - delay: 84
+  - delay: 132
     content: c
-  - delay: 206
+  - delay: 217
     content: t
-  - delay: 95
+  - delay: 146
     content: u
-  - delay: 111
+  - delay: 122
     content: r
-  - delay: 54
+  - delay: 73
     content: e
-  - delay: 472
+  - delay: 638
     content: "\e[?2004l\r\r\n"
-  - delay: 183
-    content: "\e[?25l\e[?25h\e[36m?\e[39m \e[1mHow many pictures you need?\e[22m \e[2m›\e[22m \e[36m1\e[39m"
-  - delay: 530
-    content: "\e[2K\e[1G\e[36m?\e[39m \e[1mHow many pictures you need?\e[22m \e[2m›\e[22m \e[36m2\e[39m"
-  - delay: 153
-    content: "\e[2K\e[1G\e[36m?\e[39m \e[1mHow many pictures you need?\e[22m \e[2m›\e[22m \e[36m3\e[39m"
-  - delay: 143
-    content: "\e[2K\e[1G\e[36m?\e[39m \e[1mHow many pictures you need?\e[22m \e[2m›\e[22m \e[36m4\e[39m"
-  - delay: 159
-    content: "\e[2K\e[1G\e[36m?\e[39m \e[1mHow many pictures you need?\e[22m \e[2m›\e[22m \e[36m5\e[39m"
-  - delay: 734
-    content: "\e[2K\e[1G\e[32m✔\e[39m \e[1mHow many pictures you need?\e[22m \e[2m·\e[22m \e[36m5\e[39m\r\n\e[?25l\e[36m⠋\e[39m Loading 1 pic"
-  - delay: 81
+  - delay: 138
+    content: "\e[2K\e[1G\e[36m?\e[39m \e[1mHow many pictures you need?\e[22m \e[90m›\e[39m \e[36m\e[4m\e[90m1\e[39m\e[36m\e[39m\e[24m\e7\e8"
+  - delay: 1078
+    content: "\e[2K\e[G\e[2K\e[1G\e[36m?\e[39m \e[1mHow many pictures you need?\e[22m \e[90m›\e[39m \e[36m\e[4m1\e[39m\e[24m\e7\e8"
+  - delay: 304
+    content: "\e[2K\e[G\e[2K\e[1G\e[36m?\e[39m \e[1mHow many pictures you need?\e[22m \e[90m›\e[39m \e[36m\e[4m2\e[39m\e[24m\e7\e8"
+  - delay: 345
+    content: "\e[2K\e[G\e[2K\e[1G\e[36m?\e[39m \e[1mHow many pictures you need?\e[22m \e[90m›\e[39m \e[36m\e[4m3\e[39m\e[24m\e7\e8"
+  - delay: 645
+    content: "\e[2K\e[G\e[2K\e[1G\e[32m✔\e[39m \e[1mHow many pictures you need?\e[22m \e[90m…\e[39m 3\e7\e8\r\n\e[?25h\e[2K\e[1G\e[36m?\e[39m \e[1mWidth:\e[22m \e[90m›\e[39m \e[36m\e[4m\e[90minput number or 'enter' to skip\e[39m\e[36m\e[39m\e[24m\e7\e8"
+  - delay: 1290
+    content: "\e[2K\e[G\e[2K\e[1G\e[32m✔\e[39m \e[1mWidth:\e[22m \e[90m…\e[39m 300\e7\e8\r\n\e[?25h\e[2K\e[1G\e[36m?\e[39m \e[1mHeight:\e[22m \e[90m›\e[39m \e[36m\e[4m\e[90minput number or 'enter' to skip\e[39m\e[36m\e[39m\e[24m\e7\e8"
+  - delay: 647
+    content: "\e[2K\e[G\e[2K\e[1G\e[36m?\e[39m \e[1mHeight:\e[22m \e[90m›\e[39m \e[36m\e[4m2\e[39m\e[24m\e7\e8"
+  - delay: 99
+    content: "\e[2K\e[G\e[2K\e[1G\e[36m?\e[39m \e[1mHeight:\e[22m \e[90m›\e[39m \e[36m\e[4m20\e[39m\e[24m\e7\e8"
+  - delay: 156
+    content: "\e[2K\e[G\e[2K\e[1G\e[36m?\e[39m \e[1mHeight:\e[22m \e[90m›\e[39m \e[36m\e[4m200\e[39m\e[24m\e7\e8"
+  - delay: 702
+    content: "\e[2K\e[G\e[2K\e[1G\e[32m✔\e[39m \e[1mHeight:\e[22m \e[90m…\e[39m 200\e7\e8\r\n\e[?25h\e[?25l\e[36m⠋\e[39m "
+  - delay: 84
     content: "\e[2K\e[1G\e[36m⠙\e[39m Loading 1 pic"
-  - delay: 81
+  - delay: 83
     content: "\e[2K\e[1G\e[36m⠹\e[39m Loading 1 pic"
-  - delay: 84
-    content: "\e[2K\e[1G\e[36m⠸\e[39m Loading 1 pic"
   - delay: 85
+    content: "\e[2K\e[1G\e[36m⠸\e[39m Loading 1 pic"
+  - delay: 81
     content: "\e[2K\e[1G\e[36m⠼\e[39m Loading 1 pic"
-  - delay: 84
+  - delay: 83
     content: "\e[2K\e[1G\e[36m⠴\e[39m Loading 1 pic"
   - delay: 83
     content: "\e[2K\e[1G\e[36m⠦\e[39m Loading 1 pic"
   - delay: 85
     content: "\e[2K\e[1G\e[36m⠧\e[39m Loading 1 pic"
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⠇\e[39m Loading 1 pic"
   - delay: 84
+    content: "\e[2K\e[1G\e[36m⠏\e[39m Loading 1 pic"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠋\e[39m Loading 1 pic"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠙\e[39m Loading 1 pic"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠹\e[39m Loading 1 pic"
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⠸\e[39m Loading 1 pic"
+  - delay: 79
+    content: "\e[2K\e[1G\e[36m⠼\e[39m Loading 1 pic"
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⠴\e[39m Loading 1 pic"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠦\e[39m Loading 1 pic"
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⠧\e[39m Loading 1 pic"
+  - delay: 85
     content: "\e[2K\e[1G\e[36m⠇\e[39m Loading 1 pic"
   - delay: 80
     content: "\e[2K\e[1G\e[36m⠏\e[39m Loading 1 pic"
-  - delay: 81
-    content: "\e[2K\e[1G\e[36m⠋\e[39m Loading 1 pic"
-  - delay: 84
-    content: "\e[2K\e[1G\e[36m⠙\e[39m Loading 1 pic"
   - delay: 83
-    content: "\e[2K\e[1G\e[36m⠹\e[39m Loading 1 pic"
-  - delay: 83
-    content: "\e[2K\e[1G\e[36m⠸\e[39m Loading 1 pic"
-  - delay: 85
-    content: "\e[2K\e[1G\e[36m⠼\e[39m Loading 1 pic"
-  - delay: 84
-    content: "\e[2K\e[1G\e[36m⠴\e[39m Loading 1 pic"
+    content: "\e[2K\e[1G\e[36m⠋\e[39m Loading 2 pic"
   - delay: 82
-    content: "\e[2K\e[1G\e[36m⠦\e[39m Loading 1 pic"
+    content: "\e[2K\e[1G\e[36m⠙\e[39m Loading 2 pic"
+  - delay: 79
+    content: "\e[2K\e[1G\e[36m⠹\e[39m Loading 2 pic"
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⠸\e[39m Loading 2 pic"
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⠼\e[39m Loading 2 pic"
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⠴\e[39m Loading 2 pic"
   - delay: 84
-    content: "\e[2K\e[1G\e[36m⠧\e[39m Loading 1 pic"
-  - delay: 83
-    content: "\e[2K\e[1G\e[36m⠇\e[39m Loading 1 pic"
+    content: "\e[2K\e[1G\e[36m⠦\e[39m Loading 2 pic"
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⠧\e[39m Loading 2 pic"
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⠇\e[39m Loading 2 pic"
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⠏\e[39m Loading 2 pic"
   - delay: 84
-    content: "\e[2K\e[1G\e[36m⠏\e[39m Loading 1 pic"
-  - delay: 84
-    content: "\e[2K\e[1G\e[36m⠋\e[39m Loading 1 pic"
+    content: "\e[2K\e[1G\e[36m⠋\e[39m Loading 2 pic"
   - delay: 81
     content: "\e[2K\e[1G\e[36m⠙\e[39m Loading 2 pic"
   - delay: 80
     content: "\e[2K\e[1G\e[36m⠹\e[39m Loading 2 pic"
-  - delay: 82
-    content: "\e[2K\e[1G\e[36m⠸\e[39m Loading 2 pic"
-  - delay: 85
-    content: "\e[2K\e[1G\e[36m⠼\e[39m Loading 2 pic"
   - delay: 83
-    content: "\e[2K\e[1G\e[36m⠴\e[39m Loading 2 pic"
+    content: "\e[2K\e[1G\e[36m⠸\e[39m Loading 2 pic"
   - delay: 84
+    content: "\e[2K\e[1G\e[36m⠼\e[39m Loading 2 pic"
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⠴\e[39m Loading 2 pic"
+  - delay: 82
     content: "\e[2K\e[1G\e[36m⠦\e[39m Loading 2 pic"
   - delay: 83
     content: "\e[2K\e[1G\e[36m⠧\e[39m Loading 2 pic"
-  - delay: 83
+  - delay: 85
     content: "\e[2K\e[1G\e[36m⠇\e[39m Loading 2 pic"
-  - delay: 80
+  - delay: 83
     content: "\e[2K\e[1G\e[36m⠏\e[39m Loading 2 pic"
-  - delay: 85
-    content: "\e[2K\e[1G\e[36m⠋\e[39m Loading 2 pic"
-  - delay: 81
-    content: "\e[2K\e[1G\e[36m⠙\e[39m Loading 4 pic"
-  - delay: 84
-    content: "\e[2K\e[1G\e[36m⠹\e[39m Loading 4 pic"
-  - delay: 79
-    content: "\e[2K\e[1G\e[36m⠸\e[39m Loading 4 pic"
-  - delay: 85
-    content: "\e[2K\e[1G\e[36m⠼\e[39m Loading 4 pic"
-  - delay: 83
-    content: "\e[2K\e[1G\e[36m⠴\e[39m Loading 4 pic"
-  - delay: 84
-    content: "\e[2K\e[1G\e[36m⠦\e[39m Loading 4 pic"
-  - delay: 84
-    content: "\e[2K\e[1G\e[36m⠧\e[39m Loading 4 pic"
   - delay: 82
-    content: "\e[2K\e[1G\e[36m⠇\e[39m Loading 5 pic"
+    content: "\e[2K\e[1G\e[36m⠋\e[39m Loading last pic"
   - delay: 82
-    content: "\e[2K\e[1G\e[36m⠏\e[39m Loading 5 pic"
+    content: "\e[2K\e[1G\e[36m⠙\e[39m Loading last pic"
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⠹\e[39m Loading last pic"
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⠸\e[39m Loading last pic"
   - delay: 84
-    content: "\e[2K\e[1G\e[36m⠋\e[39m Loading 5 pic"
-  - delay: 81
-    content: "\e[2K\e[1G\e[36m⠙\e[39m Loading 5 pic"
-  - delay: 85
-    content: "\e[2K\e[1G\e[36m⠹\e[39m Loading 5 pic"
+    content: "\e[2K\e[1G\e[36m⠼\e[39m Loading last pic"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠴\e[39m Loading last pic"
   - delay: 83
-    content: "\e[2K\e[1G\e[?25h┌─────────┬──────────────────────────────────────────────┐\r\n│ (index) │                    Values                    │\r\n├─────────┼──────────────────────────────────────────────┤\r\n│    0    │ \e[32m'https://i.picsum.photos/id/556/200/200.jpg'\e[39m │\r\n│    1    │ \e[32m'https://i.picsum.photos/id/681/200/200.jpg'\e[39m │\r\n│    2    │ \e[32m'https://i.picsum.photos/id/413/200/200.jpg'\e[39m │\r\n│    3    │ \e[32m'https://i.picsum.photos/id/585/200/200.jpg'\e[39m │\r\n│    4    │ \e[32m'https://i.picsum.photos/id/815/200/200.jpg'\e[39m │\r\n└─────────┴──────────────────────────────────────────────┘\r\n\e[32m✔ \e[39m \e[32m\e[4msuccess\e[24m  \e[39m 已粘贴到剪切板\r\n"
-  - delay: 25
-    content: "\e[?25h\e[?25h"
+    content: "\e[2K\e[1G\e[36m⠦\e[39m Loading last pic"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠧\e[39m Loading last pic"
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⠇\e[39m Loading last pic"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠏\e[39m Loading last pic"
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⠋\e[39m Loading last pic"
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⠙\e[39m Loading last pic"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠹\e[39m Loading last pic"
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⠸\e[39m Loading last pic"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠼\e[39m Loading last pic"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠴\e[39m Loading last pic"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠦\e[39m Loading last pic"
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⠧\e[39m Loading last pic"
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⠇\e[39m Loading last pic"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠏\e[39m Loading last pic"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠋\e[39m Loading last pic"
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⠙\e[39m Loading last pic"
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⠹\e[39m Loading last pic"
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⠸\e[39m Loading last pic"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠼\e[39m Loading last pic"
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⠴\e[39m Loading last pic"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠦\e[39m Loading last pic"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠧\e[39m Loading last pic"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠇\e[39m Loading last pic"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠏\e[39m Loading last pic"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠋\e[39m Loading last pic"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠙\e[39m Loading last pic"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠹\e[39m Loading last pic"
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⠸\e[39m Loading last pic\e[2K\e[1G\e[?25h┌─────────┬──────────────────────────────────────────────┐\r\n│ (index) │                    Values                    │\r\n├─────────┼──────────────────────────────────────────────┤\r\n│    0    │             \e[32m'⬇️⬇️⬇️ Here yo go ⬇️⬇️⬇️'\e[39m             │\r\n│    1    │ \e[32m'https://i.picsum.photos/id/214/300/200.jpg'\e[39m │\r\n│    2    │ \e[32m'https://i.picsum.photos/id/780/300/200.jpg'\e[39m │\r\n│    3    │ \e[32m'https://i.picsum.photos/id/651/300/200.jpg'\e[39m │\r\n└─────────┴──────────────────────────────────────────────┘\r\n\e[36m☒ \e[39m \e[36m\e[4mcomplete\e[24m \e[39m Success loaded 3 pictures\r\n"
+  - delay: 31
+    content: "\e[32m✔ \e[39m \e[32m\e[4msuccess\e[24m  \e[39m \U0001F308 Saved to clipboard \U0001F308 \r\n"
+  - delay: 140
+    content: "\e[?25h"
   - delay: 7
     content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                               \r \r\r\e[0m\e[27m\e[24m\e[Jyokiijay@work pic-cli % \e[K\e[?2004h"
-  - delay: 2579
+  - delay: 2363
     content: "\e[?2004l\r\r\n"
