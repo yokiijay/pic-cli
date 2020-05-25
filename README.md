@@ -12,5 +12,9 @@ or
 
 `npm -g install @yokiijay/pic-cli`
 
+or 
+
+`npx @yokiijay/pic-cli`
+
 ## Use
 `$ picture`
