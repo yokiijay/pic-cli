@@ -3,7 +3,7 @@
 
 Demo:
 
-![Demo](https://i.loli.net/2020/05/25/Lwios1hpIf2SRcX.gif)
+![Demo](https://i.loli.net/2020/05/25/USIjK25PGiCNXuR.gif)
 
 ## Install
 `yarn global add @yokiijay/pic-cli`
@@ -13,4 +13,4 @@ or
 `npm -g install @yokiijay/pic-cli`
 
 ## Use
-`picture`
+`$ picture`

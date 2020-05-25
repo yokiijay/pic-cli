@@ -24,20 +24,20 @@ if(!program.args.length) question()
 async function question(){
   const count = await new NumberPrompt({
     name: 'count',
-    message: '需要生成多少图片？',
+    message: `How many pictures you need?`,
     initial: 1
   }).run()
 
   let currentCount = 0
   let pics = []
   
-  const spinner = ora(`加载第1张`).start()
+  const spinner = ora(`Loading 1 pic`).start()
 
   for(let i=0;i<count;i++){
     (async ()=>{
       try {
         const { url } = await fetch('https://picsum.photos/200')
-        spinner.text = `加载第${pics.length+2}张`
+        spinner.text = `Loading ${pics.length+2} pic`
         pics.push(url)
 
         if(pics.length===count) {

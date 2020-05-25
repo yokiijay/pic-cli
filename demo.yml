@@ -23,7 +23,7 @@ config:
   # Explicitly set the number of rows
   # or use `auto` to take the current
   # number of rows of your shell
-  rows: 14
+  rows: 15
   
   # Amount of times to repeat GIF
   # If value is -1, play once
@@ -33,7 +33,7 @@ config:
   
   # Quality
   # 1 - 100
-  quality: 60
+  quality: 40
   
   # Delay between frames in ms
   # If the value is `auto` use the actual recording delays
@@ -111,109 +111,125 @@ config:
   
 # Records, feel free to edit them
 records:
-  - delay: 400
+  - delay: 630
     content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                               \r \r\r\e[0m\e[27m\e[24m\e[Jyokiijay@work pic-cli % \e[K\e[?2004h"
-  - delay: 731
+  - delay: 1193
     content: p
-  - delay: 181
+  - delay: 161
     content: "\bpi"
   - delay: 84
     content: c
-  - delay: 232
+  - delay: 206
     content: t
-  - delay: 185
+  - delay: 95
     content: u
-  - delay: 120
+  - delay: 111
     content: r
-  - delay: 70
+  - delay: 54
     content: e
-  - delay: 869
+  - delay: 472
     content: "\e[?2004l\r\r\n"
-  - delay: 190
-    content: "\e[?25l\e[?25h\e[36m?\e[39m \e[1m需要生成多少图片？\e[22m \e[2m›\e[22m \e[36m1\e[39m"
-  - delay: 695
-    content: "\e[2K\e[1G\e[36m?\e[39m \e[1m需要生成多少图片？\e[22m \e[2m›\e[22m \e[36m2\e[39m"
-  - delay: 151
-    content: "\e[2K\e[1G\e[36m?\e[39m \e[1m需要生成多少图片？\e[22m \e[2m›\e[22m \e[36m3\e[39m"
-  - delay: 164
-    content: "\e[2K\e[1G\e[36m?\e[39m \e[1m需要生成多少图片？\e[22m \e[2m›\e[22m \e[36m4\e[39m"
-  - delay: 172
-    content: "\e[2K\e[1G\e[36m?\e[39m \e[1m需要生成多少图片？\e[22m \e[2m›\e[22m \e[36m5\e[39m"
-  - delay: 879
-    content: "\e[2K\e[1G\e[32m✔\e[39m \e[1m需要生成多少图片？\e[22m \e[2m·\e[22m \e[36m5\e[39m\r\n\e[?25l\e[36m⠋\e[39m 加载第1张"
-  - delay: 82
-    content: "\e[2K\e[1G\e[36m⠙\e[39m 加载第1张"
-  - delay: 84
-    content: "\e[2K\e[1G\e[36m⠹\e[39m 加载第1张"
-  - delay: 84
-    content: "\e[2K\e[1G\e[36m⠸\e[39m 加载第1张"
-  - delay: 84
-    content: "\e[2K\e[1G\e[36m⠼\e[39m 加载第1张"
-  - delay: 84
-    content: "\e[2K\e[1G\e[36m⠴\e[39m 加载第1张"
-  - delay: 85
-    content: "\e[2K\e[1G\e[36m⠦\e[39m 加载第1张"
-  - delay: 83
-    content: "\e[2K\e[1G\e[36m⠧\e[39m 加载第1张"
-  - delay: 82
-    content: "\e[2K\e[1G\e[36m⠇\e[39m 加载第1张"
+  - delay: 183
+    content: "\e[?25l\e[?25h\e[36m?\e[39m \e[1mHow many pictures you need?\e[22m \e[2m›\e[22m \e[36m1\e[39m"
+  - delay: 530
+    content: "\e[2K\e[1G\e[36m?\e[39m \e[1mHow many pictures you need?\e[22m \e[2m›\e[22m \e[36m2\e[39m"
+  - delay: 153
+    content: "\e[2K\e[1G\e[36m?\e[39m \e[1mHow many pictures you need?\e[22m \e[2m›\e[22m \e[36m3\e[39m"
+  - delay: 143
+    content: "\e[2K\e[1G\e[36m?\e[39m \e[1mHow many pictures you need?\e[22m \e[2m›\e[22m \e[36m4\e[39m"
+  - delay: 159
+    content: "\e[2K\e[1G\e[36m?\e[39m \e[1mHow many pictures you need?\e[22m \e[2m›\e[22m \e[36m5\e[39m"
+  - delay: 734
+    content: "\e[2K\e[1G\e[32m✔\e[39m \e[1mHow many pictures you need?\e[22m \e[2m·\e[22m \e[36m5\e[39m\r\n\e[?25l\e[36m⠋\e[39m Loading 1 pic"
   - delay: 81
-    content: "\e[2K\e[1G\e[36m⠏\e[39m 加载第1张"
-  - delay: 84
-    content: "\e[2K\e[1G\e[36m⠋\e[39m 加载第1张"
-  - delay: 85
-    content: "\e[2K\e[1G\e[36m⠙\e[39m 加载第1张"
-  - delay: 84
-    content: "\e[2K\e[1G\e[36m⠹\e[39m 加载第1张"
-  - delay: 85
-    content: "\e[2K\e[1G\e[36m⠸\e[39m 加载第1张"
-  - delay: 84
-    content: "\e[2K\e[1G\e[36m⠼\e[39m 加载第1张"
-  - delay: 84
-    content: "\e[2K\e[1G\e[36m⠴\e[39m 加载第1张"
-  - delay: 84
-    content: "\e[2K\e[1G\e[36m⠦\e[39m 加载第1张"
-  - delay: 83
-    content: "\e[2K\e[1G\e[36m⠧\e[39m 加载第1张"
-  - delay: 80
-    content: "\e[2K\e[1G\e[36m⠇\e[39m 加载第1张"
-  - delay: 86
-    content: "\e[2K\e[1G\e[36m⠏\e[39m 加载第1张"
-  - delay: 83
-    content: "\e[2K\e[1G\e[36m⠋\e[39m 加载第1张"
-  - delay: 84
-    content: "\e[2K\e[1G\e[36m⠙\e[39m 加载第2张"
-  - delay: 80
-    content: "\e[2K\e[1G\e[36m⠹\e[39m 加载第4张"
-  - delay: 84
-    content: "\e[2K\e[1G\e[36m⠸\e[39m 加载第4张"
-  - delay: 84
-    content: "\e[2K\e[1G\e[36m⠼\e[39m 加载第4张"
-  - delay: 85
-    content: "\e[2K\e[1G\e[36m⠴\e[39m 加载第4张"
-  - delay: 80
-    content: "\e[2K\e[1G\e[36m⠦\e[39m 加载第5张"
+    content: "\e[2K\e[1G\e[36m⠙\e[39m Loading 1 pic"
   - delay: 81
-    content: "\e[2K\e[1G\e[36m⠧\e[39m 加载第5张"
+    content: "\e[2K\e[1G\e[36m⠹\e[39m Loading 1 pic"
   - delay: 84
-    content: "\e[2K\e[1G\e[36m⠇\e[39m 加载第5张"
-  - delay: 80
-    content: "\e[2K\e[1G\e[36m⠏\e[39m 加载第5张"
+    content: "\e[2K\e[1G\e[36m⠸\e[39m Loading 1 pic"
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⠼\e[39m Loading 1 pic"
   - delay: 84
-    content: "\e[2K\e[1G\e[36m⠋\e[39m 加载第5张"
-  - delay: 82
-    content: "\e[2K\e[1G\e[36m⠙\e[39m 加载第5张"
-  - delay: 82
-    content: "\e[2K\e[1G\e[36m⠹\e[39m 加载第5张"
-  - delay: 84
-    content: "\e[2K\e[1G\e[36m⠸\e[39m 加载第5张"
+    content: "\e[2K\e[1G\e[36m⠴\e[39m Loading 1 pic"
   - delay: 83
-    content: "\e[2K\e[1G\e[36m⠼\e[39m 加载第5张"
-  - delay: 43
-    content: "\e[2K\e[1G\e[?25h┌─────────┬───────────────────────────────────────────────┐\r\n│ (index) │                    Values                     │\r\n├─────────┼───────────────────────────────────────────────┤\r\n│    0    │ \e[32m'https://i.picsum.photos/id/699/200/200.jpg'\e[39m  │\r\n│    1    │ \e[32m'https://i.picsum.photos/id/1062/200/200.jpg'\e[39m │\r\n│    2    │ \e[32m'https://i.picsum.photos/id/546/200/200.jpg'\e[39m  │\r\n│    3    │ \e[32m'https://i.picsum.photos/id/312/200/200.jpg'\e[39m  │\r\n│    4    │ \e[32m'https://i.picsum.photos/id/548/200/200.jpg'\e[39m  │\r\n└─────────┴───────────────────────────────────────────────┘\r\n\e[32m✔ \e[39m \e[32m\e[4msuccess\e[24m  \e[39m 已粘贴到剪切板\r\n"
-  - delay: 1000
+    content: "\e[2K\e[1G\e[36m⠦\e[39m Loading 1 pic"
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⠧\e[39m Loading 1 pic"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠇\e[39m Loading 1 pic"
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⠏\e[39m Loading 1 pic"
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⠋\e[39m Loading 1 pic"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠙\e[39m Loading 1 pic"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠹\e[39m Loading 1 pic"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠸\e[39m Loading 1 pic"
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⠼\e[39m Loading 1 pic"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠴\e[39m Loading 1 pic"
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⠦\e[39m Loading 1 pic"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠧\e[39m Loading 1 pic"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠇\e[39m Loading 1 pic"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠏\e[39m Loading 1 pic"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠋\e[39m Loading 1 pic"
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⠙\e[39m Loading 2 pic"
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⠹\e[39m Loading 2 pic"
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⠸\e[39m Loading 2 pic"
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⠼\e[39m Loading 2 pic"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠴\e[39m Loading 2 pic"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠦\e[39m Loading 2 pic"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠧\e[39m Loading 2 pic"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠇\e[39m Loading 2 pic"
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⠏\e[39m Loading 2 pic"
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⠋\e[39m Loading 2 pic"
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⠙\e[39m Loading 4 pic"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠹\e[39m Loading 4 pic"
+  - delay: 79
+    content: "\e[2K\e[1G\e[36m⠸\e[39m Loading 4 pic"
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⠼\e[39m Loading 4 pic"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠴\e[39m Loading 4 pic"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠦\e[39m Loading 4 pic"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠧\e[39m Loading 4 pic"
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⠇\e[39m Loading 5 pic"
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⠏\e[39m Loading 5 pic"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠋\e[39m Loading 5 pic"
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⠙\e[39m Loading 5 pic"
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⠹\e[39m Loading 5 pic"
+  - delay: 83
+    content: "\e[2K\e[1G\e[?25h┌─────────┬──────────────────────────────────────────────┐\r\n│ (index) │                    Values                    │\r\n├─────────┼──────────────────────────────────────────────┤\r\n│    0    │ \e[32m'https://i.picsum.photos/id/556/200/200.jpg'\e[39m │\r\n│    1    │ \e[32m'https://i.picsum.photos/id/681/200/200.jpg'\e[39m │\r\n│    2    │ \e[32m'https://i.picsum.photos/id/413/200/200.jpg'\e[39m │\r\n│    3    │ \e[32m'https://i.picsum.photos/id/585/200/200.jpg'\e[39m │\r\n│    4    │ \e[32m'https://i.picsum.photos/id/815/200/200.jpg'\e[39m │\r\n└─────────┴──────────────────────────────────────────────┘\r\n\e[32m✔ \e[39m \e[32m\e[4msuccess\e[24m  \e[39m 已粘贴到剪切板\r\n"
+  - delay: 25
     content: "\e[?25h\e[?25h"
   - delay: 7
     content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                               \r \r\r\e[0m\e[27m\e[24m\e[Jyokiijay@work pic-cli % \e[K\e[?2004h"
-  - delay: 1952
+  - delay: 2579
     content: "\e[?2004l\r\r\n"
