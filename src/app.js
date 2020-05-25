@@ -28,21 +28,34 @@ async function question(){
       type: 'number',
       name: 'count',
       message: 'How many pictures you need?',
-      initial: 1
+      initial: 1,
+      min: 1
     },
     {
       type: 'number',
       name: 'width',
       message: "Width:",
       initial: `input number or 'enter' to skip`,
-      format: val => isNaN(val) ? null : val
+      format: val => isNaN(val) ? null : val,
+      onState(state){
+        if(state.value === -Infinity || isNaN(state.value) ){
+          this.rendered = 300
+          this.value = 300
+        }
+      }
     },
     {
       type: 'number',
       name: 'height',
       message: "Height:",
       initial: `input number or 'enter' to skip`,
-      format: val => isNaN(val) ? null : val
+      format: val => isNaN(val) ? null : val,
+      onState(state){
+        if(state.value === -Infinity || isNaN(state.value) ){
+          this.rendered = 300
+          this.value = 300
+        }
+      }
     },
   ])
 
