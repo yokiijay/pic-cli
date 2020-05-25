@@ -1,9 +1,10 @@
-#!node
+#!/usr/bin/env node
 const { program } = require('commander')
 const fetch = require('node-fetch')
 const { prompt, NumberPrompt } = require('enquirer')
-const { Signale } = require('signale')
+const signale = require('signale')
 const ora = require('ora')
+const clipboardy = require('clipboardy')
 
 program.version('0.0.1', '-v --vers', '打印当前版本')
 program.description('一个随机图片生成器')
@@ -28,15 +29,27 @@ async function question(){
   }).run()
 
   let currentCount = 0
+  let pics = []
   
+  const spinner = ora(`加载第1张`).start()
+
   for(let i=0;i<count;i++){
     (async ()=>{
-      const spinner = ora(`加载第${currentCount+1}张`).start()
-      const { url } = await fetch('https://picsum.photos/200')
+      try {
+        const { url } = await fetch('https://picsum.photos/200')
+        spinner.text = `加载第${pics.length+2}张`
+        pics.push(url)
 
-      spinner.succeed(`第${currentCount+1}张图: ${url}`)
-
-      currentCount++
+        if(pics.length===count) {
+          spinner.stop()
+          console.table(pics)
+          signale.success('已粘贴到剪切板')
+          clipboardy.writeSync(JSON.stringify(pics))
+        }
+      } catch (err){
+        console.log( err )
+        i--
+      }
     })()
   }
 }
