@@ -5,6 +5,9 @@
   "description": "An generator for random picture",
   "author": "Yokiijay <yokiijay@gmail.com> (https://yokiijay.github.io)",
   "license": "MIT",
+  "files": [
+    "src/*"
+  ],
   "bin": {
     "picture": "./src/app.js"
   },
