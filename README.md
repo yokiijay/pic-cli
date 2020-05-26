@@ -1,5 +1,8 @@
 # pic-cli
 
+### 👏Considering that many people like this package, we have released `picture-cli`， please use `npx picture-cli` instead.
+
+
 [![Latest Stable Version](https://img.shields.io/npm/v/@yokiijay/pic-cli.svg)](https://www.npmjs.com/package/@yokiijay/pic-cli)
 
 
