@@ -4,6 +4,16 @@
   "main": "src/app.js",
   "description": "An generator for random picture",
   "author": "Yokiijay <yokiijay@gmail.com> (https://yokiijay.github.io)",
+  "homepage": "https://github.com/yokiijay",
+  "repository": {
+    "url": "https://github.com/yokiijay/pic-cli"
+  },
+  "keywords": [
+    "picture",
+    "generator",
+    "cli",
+    "node"
+  ],
   "license": "MIT",
   "files": [
     "src/*"
