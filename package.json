@@ -1,6 +1,6 @@
 {
   "name": "@yokiijay/pic-cli",
-  "version": "0.0.73",
+  "version": "0.0.8",
   "main": "src/app.js",
   "description": "An generator for random picture",
   "author": "Yokiijay <yokiijay@gmail.com> (https://yokiijay.github.io)",
