@@ -22,7 +22,9 @@ program
   .option('set delay <ms>', 'set the delay of each generation')
 
 program.parse(process.argv)
-// console.log( program )
+// if(program.args.length){
+//   const [] = program.args
+// }
 
 if(!program.args.length) question()
 
