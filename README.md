@@ -3,13 +3,13 @@
 [![Latest Stable Version](https://img.shields.io/npm/v/@yokiijay/pic-cli.svg)](https://www.npmjs.com/package/@yokiijay/pic-cli)
 
 
- ### A Generator for random pictures
+### A Generator for random pictures
 
  ❤️  pic-cli helps you get countless pictures easily.
 
  💻 Auto generate HTML `<img/>` tag with wrapper and copy to clipboard.
 
- -🔥 Extremely fast, 10ms per picture I guarantee!
+ 🔥 Extremely fast, 10ms per picture I guarantee!
  
 
 ### DEMO:
